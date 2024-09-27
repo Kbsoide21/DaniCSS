@@ -1,0 +1,14 @@
+li {
+    color: darkgoldenrod;
+}
+
+.dorado{
+    background-color: darkgoldenrod;
+}
+.numeros:in-range {
+    border: 2px solid green;
+}
+
+.numeros:out-of-range {
+    border: 2px solid red;
+}
