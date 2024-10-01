@@ -1,0 +1,32 @@
+html {
+    background-color: rgb(235, 217, 138);
+}
+p {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#arriba {
+    background-color: white;
+    border-style: groove;
+    width: 120px;
+    height: 20px;
+    text-align: left;
+}
+#medio {
+    background-color: white;
+    border-style: groove;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+}
+#abajo {
+    background-color: white;
+    border-style: groove;
+    width: 120px;
+    height: 20px;
+    text-align: right;
+}
