@@ -1,0 +1,129 @@
+body {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marco {
+    background-color: white;
+    border-radius: 500px;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    z-index: auto;
+}
+
+.div1 {
+    background-color: red;
+    border-radius: 600px;
+    height: 450px;
+    width: 450px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+    outline-style:double;
+    outline-width: 10px;
+}
+
+.div2 {
+    background-color: white;
+    border-radius: 600px;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+}
+.div3 {
+    background-color: red;
+    border-radius: 600px;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+}
+.div4 {
+    background-color: white;
+    border-radius: 600px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+}
+.div5 {
+    background-color:red;
+    border-radius: 600px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+}
+.div6 {
+    background-color:white;
+    border-radius: 600px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+}
+.div7 {
+    background-color:red;
+    border-radius: 600px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+}
+.div8 {
+    background-color:white;
+    border-radius: 600px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+}
+.div9 {
+    background-color:red;
+    border-radius: 600px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 10px;
+    top: 25px;
+    left: 25px;
+}
+.div10 {
+    background-color: black;
+    height: 450px;
+    width: 3px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    z-index:20px;
+    transform: translate(-50%, -50%);
+}
+.div11 {
+    background-color: black;
+    height: 3px;
+    width: 450px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    z-index:20px;
+    transform: translate(-50%, -50%);
+}
