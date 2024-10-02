@@ -1,0 +1,52 @@
+body {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+.rojo {
+    border-radius: 100%;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.verde {
+    border-radius: 100%;
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+}
+
+.azul {
+    border-radius: 100%;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.lila {
+    border-radius: 100%;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+.amarillo {
+    border-radius: 100%;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.azulclaro {
+    border-radius: 100%;
+    background-color:aquamarine;
+    width: 100px;
+    height: 100px;
+}
