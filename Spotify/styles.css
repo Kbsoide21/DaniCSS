@@ -1,0 +1,64 @@
+.arriba{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 1100px;
+    width: 100%;
+}
+.barra {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+.logospoty {
+    width: 300px;
+    height: auto;
+    float: left;
+}
+.menu {
+    display: flex;
+    float: right;
+    width: 30%;
+}
+.boton {
+    background: none;
+    border: none;
+    padding:10px;
+    font-size: 1rem;
+}
+.publicocontexto {  
+    position: relative; 
+    display: inline-block;
+}
+.publico {
+    height: 100%;
+    width: 100%;
+}
+.textopublico {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    color: white;
+    top:35%;
+    font-size: 2rem;
+}
+
+.quehaydenuevo {
+    font-size: 2rem;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: greenyellow;
+}
+.medio2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.panel {
+    
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+}
