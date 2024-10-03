@@ -1,0 +1,107 @@
+@media (max-width: 320px) {
+    div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .naranja1, .naranja2 {
+        background-color: orange;
+        height: 30px;
+    }
+    .verde {
+        background-color: greenyellow;
+        height: 40px;
+    }
+    .azul1, .azul2, .azul3 {
+        background-color: blue;
+        height: 80px;
+    }
+    .gris1, .gris2, .gris3, .gris4 {
+        background-color: grey;
+        height: 30px;
+    }
+}
+
+@media (min-width:321px) and (max-width:767px) {
+    div {
+        margin-bottom: 3px;
+    }
+    .naranja1, .naranja2 {
+        background-color: orange;
+        height: 30px;
+        width: 100%;
+    }
+    .naranja2, .azul3 {
+        margin-bottom: 10px;
+    }
+    .verde {
+        background-color: greenyellow;
+        height: 80px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .azul1, .azul2, .azul3 {
+        background-color: blue;
+        height: 50px;
+        width: 100%;
+    }
+    .gris1, .gris2, .gris3, .gris4 {
+        background-color: grey;
+        height: 30px;
+        width: 49%;
+    }
+    .gris1 {
+        float:left;
+    }
+    .gris2 {
+        float: right;
+    }
+    .gris3 {
+        float: left;
+        clear: left;
+    }
+    .gris4 {
+        float:right;
+    }
+}
+
+@media (min-width:768px) {
+
+    div {
+        margin-bottom: 3px;
+    }
+    .naranja1, .naranja2 {
+        background-color: orange;
+        height: 50px;
+        width: 49%;
+    }
+    .naranja2 {
+        float: right;
+    }
+    .naranja1 {
+        float: left;
+    }
+    .naranja2, .azul3 {
+        margin-bottom: 10px;
+    }
+    .verde {
+        background-color: greenyellow;
+        height: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+        clear: both;
+    }
+    .azul1, .azul2, .azul3 {
+        background-color: blue;
+        height: 200px;
+        width: 32%;
+        float: left;
+        margin-right: 1%;
+    }
+    .gris1, .gris2, .gris3, .gris4 {
+        background-color: grey;
+        height: 100px;
+        width: 24%;
+        float: left;
+        margin-right: 1%;
+    }
+}
